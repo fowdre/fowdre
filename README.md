@@ -3,4 +3,36 @@
 <h2 align="center">Stats</h2>
 
 <!--START_SECTION:waka-->
+![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue)
+
+**🐱 My GitHub Data** 
+
+> 📦 60.2 kB Used in GitHub's Storage 
+ > 
+> 🏆 0 Contributions in the Year 2024
+ > 
+> 🚫 Not Opted to Hire
+ > 
+> 📜 0 Public Repositories 
+ > 
+> 🔑 109 Private Repositories 
+ > 
+**I Mostly Code in C** 
+
+```text
+C                        51 repos            █████████████░░░░░░░░░░░░   51.00 % 
+Python                   35 repos            █████████░░░░░░░░░░░░░░░░   35.00 % 
+C++                      2 repos             ░░░░░░░░░░░░░░░░░░░░░░░░░   02.00 % 
+Haskell                  2 repos             ░░░░░░░░░░░░░░░░░░░░░░░░░   02.00 % 
+Rust                     2 repos             ░░░░░░░░░░░░░░░░░░░░░░░░░   02.00 % 
+```
+
+
+
+**Timeline**
+
+![Lines of Code chart](https://raw.githubusercontent.com/fowdre/fowdre/main/assets/bar_graph.png)
+
+
+ Last Updated on 03/03/2024 16:50:51 UTC
 <!--END_SECTION:waka-->
