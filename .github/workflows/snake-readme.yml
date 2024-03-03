@@ -1,0 +1,36 @@
+name: Contribution grid to Snake" 🐍
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 1 * * *"
+  
+  # push:
+  #   branches:
+  #     - main
+
+run-name: Snakey Contributions 🐍
+
+jobs:
+  play_snake:
+    # runner
+    runs-on: ubuntu-latest
+    steps:
+      - name: generate-snake-game-from-github-contribution-grid
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            output/snake/github-snake.svg?color_snake=#8ec07c&color_dots=#282828,#643209,#fe8019,#ffdb18,#b5e345
+            output/snake/github-snake-dark.svg?palette=github-dark&color_snake=#8ec07c&color_dots=#282828,#643209,#fe8019,#ffdb18,#b5e345
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: push github-contribution-grid-snake.svg to the output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: snek
+          build_dir: output/snake
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+# output/snake/ocean.gif?color_snake=#8ec07c&color_dots=#282828,#643209,#fe8019,#ffdb18,#b5e345
