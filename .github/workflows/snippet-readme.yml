@@ -1,0 +1,18 @@
+name: Random code snippet
+
+on:
+  workflow_dispatch:
+
+jobs:
+  get-random-snippet:
+    name: Get Random Snippet
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.code.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_code: yes
+          plugin_code_languages: javascript, typescript
+          plugin_code_load: 400
