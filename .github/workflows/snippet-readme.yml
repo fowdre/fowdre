@@ -12,7 +12,7 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
-          filename: metrics/code_snippet.svg
+          filename: assets/code_snippet.svg
           base: ""
           plugin_code: yes
           plugin_code_lines: 12
