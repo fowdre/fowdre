@@ -16,3 +16,4 @@ jobs:
           plugin_code: yes
           plugin_code_languages: python, c, c++, haskell, rust
           plugin_code_load: 400
+          plugin_code_visibility: all
