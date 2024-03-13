@@ -14,5 +14,5 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_code: yes
-          plugin_code_languages: javascript, typescript
+          plugin_code_languages: python, c, c++, haskell, rust
           plugin_code_load: 400
