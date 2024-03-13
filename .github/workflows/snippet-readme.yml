@@ -21,7 +21,7 @@ jobs:
           config_timezone: Europe/Paris
           plugin_code: yes
           plugin_code_days: 3
-          plugin_code_languages: c, python, c++, haskell
+          plugin_code_languages: C, Python, C++, Haskell
           plugin_code_lines: 12
           plugin_code_load: 400
           plugin_code_visibility: all
