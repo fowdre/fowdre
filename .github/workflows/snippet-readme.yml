@@ -1,8 +1,9 @@
 name: Metrics
 
 on:
-  schedule: [{cron: "0 */8 * * *"}]
-  workflow_dispatch:
+  schedule:
+    # runs at 23:00 Paris time
+    - cron: "0 21 * * *"
 
 jobs:
   github-metrics:
