@@ -4,29 +4,27 @@ on:
   workflow_dispatch:
   schedule:
     # runs at midnight Paris time
-    - cron: "0 22 * * *"
+    - cron: "0 5 * * *"
 
 jobs:
   update-readme:
     name: WakaReadme DevMetrics
     runs-on: ubuntu-latest
     steps:
-      - uses: anmol098/waka-readme-stats@master
+      - uses: anmol098/waka-readme-stats@c6070c14861e6d8b553742b1f9e1ed9e7b53938a
         with:
-          # Content
-          SHOW_UPDATED_DATE: true
-          SHOW_PROFILE_VIEWS: false
-          SHOW_TOTAL_CODE_TIME: false
-          SHOW_LINES_OF_CODE: false
-          SHOW_OS: false
-          SHOW_EDITORS: false
-          SHOW_TIMEZONE: false
-          SHOW_PROJECTS: false
-          SHOW_LOC_CHART: false
-          SHOW_LANGUAGE_PER_REPO: false
-          # Commit
           COMMIT_BY_ME: false
           COMMIT_MESSAGE: Updated README.md with Dev Metrics
-          # Tokens
+          SHOW_UPDATED_DATE: true
+          SHOW_LINES_OF_CODE: false
+          SHOW_TOTAL_CODE_TIME: false
+          SHOW_PROFILE_VIEWS: false
+          SHOW_OS: false
+          SHOW_PROJECTS: false
+          SHOW_TIMEZONE: false
+          SHOW_EDITORS: false
+          SHOW_LANGUAGE_PER_REPO: false
+          SHOW_LOC_CHART: false
+
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
