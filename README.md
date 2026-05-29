@@ -23,40 +23,8 @@
  > 
 > 🔑 0 Private Repositories 
  > 
-**I'm a Night 🦉** 
 
-```text
-🌞 Morning                1710 commits        ███████░░░░░░░░░░░░░░░░░░   26.07 % 
-🌆 Daytime                1304 commits        █████░░░░░░░░░░░░░░░░░░░░   19.88 % 
-🌃 Evening                1603 commits        ██████░░░░░░░░░░░░░░░░░░░   24.44 % 
-🌙 Night                  1943 commits        ███████░░░░░░░░░░░░░░░░░░   29.62 % 
-```
-📅 **I'm Most Productive on Thursday** 
-
-```text
-Monday                   907 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.83 % 
-Tuesday                  880 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.41 % 
-Wednesday                924 commits         ████░░░░░░░░░░░░░░░░░░░░░   14.09 % 
-Thursday                 1003 commits        ████░░░░░░░░░░░░░░░░░░░░░   15.29 % 
-Friday                   970 commits         ████░░░░░░░░░░░░░░░░░░░░░   14.79 % 
-Saturday                 978 commits         ████░░░░░░░░░░░░░░░░░░░░░   14.91 % 
-Sunday                   898 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.69 % 
-```
-
-
-📊 **This Week I Spent My Time On** 
-
-```text
-💬 Programming Languages: 
-TypeScript               4 hrs 20 mins       ████████████████████░░░░░   79.80 % 
-Rust                     29 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   08.87 % 
-JSON                     10 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.09 % 
-jsonc                    9 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   02.94 % 
-shell script             8 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   02.68 % 
-```
-
-
- Last Updated on 28/05/2026 08:53:57 UTC
+ Last Updated on 29/05/2026 08:51:36 UTC
 <!--END_SECTION:waka-->
 
 ![github-snake](https://raw.githubusercontent.com/fowdre/fowdre/refs/heads/snek/github-snake.svg#gh-light-mode-only)
